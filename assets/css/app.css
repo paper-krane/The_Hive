@@ -21,6 +21,8 @@ html {
     width: 100%;
 }
 html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
     width: 100%;
     background-color: var(--background-color);
     font-family: 'Roboto';
