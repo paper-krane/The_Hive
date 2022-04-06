@@ -190,7 +190,7 @@
             if (window.innerWidth > 1280) {
                 return 0;
             } else {
-                return 36
+                return -72
             }
         },
         ease: "power1",
