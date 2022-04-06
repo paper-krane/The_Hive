@@ -183,6 +183,13 @@
             if (window.innerWidth > 1280) {
                 return 108;
             } else {
+                return 0
+            }
+        },
+        y: () => {
+            if (window.innerWidth > 1280) {
+                return 0;
+            } else {
                 return 36
             }
         },
